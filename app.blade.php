@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{{ $title ?? 'Laravel POS' }}</title><style>body{font-family:Arial;margin:0;background:#f4f7fb;color:#243447}header{background:#17324d;padding:20px;color:white}nav{max-width:1050px;margin:auto}nav a{color:white;margin-right:20px;text-decoration:none}.wrap{max-width:1050px;margin:40px auto;padding:0 20px}.panel{background:#fff;padding:25px;border-radius:12px;border:1px solid #dbe4ee}table{width:100%;border-collapse:collapse}th,td{padding:12px;text-align:left;border-bottom:1px solid #dbe4ee}th{background:#edf3f9}.badge{color:#15803d;font-weight:bold}</style></head>
+<body><header><nav><strong>Laravel POS</strong> &nbsp; <a href="{{ route('home') }}">Home</a><a href="{{ route('about') }}">About</a><a href="{{ route('customers.index') }}">Customers</a><a href="{{ route('users.index') }}">Users</a></nav></header><main class="wrap">@yield('content')</main></body>
+</html>
